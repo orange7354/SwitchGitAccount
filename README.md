@@ -2,10 +2,8 @@
 
 
 # Usage
-//main
-[System.Environment]::SetEnvironmentVariable('GIT_MAIN_NAME', 'アカウント名', 'User')
-[System.Environment]::SetEnvironmentVariable('GIT_MAIN_EMAIL', 'メールアドレス', 'User')
-//sub
+main
+
 [System.Environment]::SetEnvironmentVariable('GIT_MAIN_NAME', 'アカウント名', 'User')
 [System.Environment]::SetEnvironmentVariable('GIT_MAIN_EMAIL', 'メールアドレス', 'User')
 
